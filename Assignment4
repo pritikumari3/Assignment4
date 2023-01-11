@@ -1,0 +1,154 @@
+1.
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+int length;
+System.out.print("Enter the length : ");
+length=sc.nextInt();
+int breadth;
+System.out.print("Enter the breadth : ");
+breadth=sc.nextInt();
+if(length==breadth)
+{
+System.out.print("It is a square");
+}else{
+System.out.print("It is not a square");
+}
+}
+}
+2.
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+int num;
+System.out.print("Enter the number : ");
+num=sc.nextInt();
+if(num<0)
+{
+num=num*-1;
+}
+System.out.print("The absolute value is : " + num);
+}
+3.
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+int cp;
+int sp;
+System.out.print("Enter the Cost Price : ");
+cp=sc.nextInt();
+System.out.print("Enter the Selling Price : ");
+sp=sc.nextInt();
+int amt;
+if(cp>sp)
+{
+amt=cp-sp;
+System.out.print("The loss is : "+amt);
+}else if(cp<sp)
+{
+amt=sp-cp;
+System.out.print("The profit is : "+amt);
+}else{
+System.out.print("No Profit No Loss");
+}
+}
+}
+4.
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+int x;
+System.out.print("Enter the Number : ");
+x=sc.nextInt();
+if(x>=0)
+{
+System.out.print("You entered a positive number");
+}else{
+System.out.print("You number is negative and is skipped");
+}
+}
+  }
+  
+  5.
+  import java.util.*;
+class Main {
+public static void main(String[] args) {
+char op;
+Double num1;
+Double num2;
+Double ans;
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter an operator: (+, -, *, or /)");
+op = sc.next().charAt(0);
+System.out.print("Enter first number : ");
+num1 = sc.nextDouble();
+System.out.print("Enter second number : ");
+num2 = sc.nextDouble();
+switch (op) {
+case '+':
+ans = num1 + num2;
+System.out.println(num1+ " + " + num2 + " = " + ans);
+break;
+case '-':
+ans = num1 - num2;
+System.out.println(num1 + " - " + num2 + " = " + ans);
+break;
+case '*':
+ans = num1 * num2;
+System.out.println(num1 + " * " + num2 + " = " + ans);
+break;
+case '/':
+ans = num1 / num2;
+System.out.println(num1+ " / " + num2 + " = " + ans);
+break;
+default:
+System.out.println("Error! The operator is not correct");
+break;
+ }
+ }
+ }
+ 6.
+ import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+int marks;
+System.out.print("Enter the marks : ");
+marks=sc.nextInt();
+if(marks>=90)
+{
+System.out.print("Your Grade is A+");
+}else if(marks>=80)
+{
+System.out.print("Your Grade is A");
+}else if(marks>=70)
+{
+System.out.print("Your Grade is B+");
+}else if(marks>=60)
+{
+System.out.print("Your Grade is B");
+}else if(marks>=50)
+{
+System.out.print("Your Grade is C");
+}else if(marks>=40)
+{
+System.out.print("Your Grade is D");
+}else if(marks>=30)
+{
+System.out.print("YourGrade is E");
+}else if(marks<30){
+System.out.print("Your Grade is f");
+}else{
+System.out.print("Enter valid marks");
+ }
+ }
+ }
